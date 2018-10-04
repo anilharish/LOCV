@@ -30,7 +30,7 @@ void fillHoles(Mat &mask)
 int main(int argc, char** argv )
 {
     // Read image
-  Mat img = imread("red_eyes2.jpg",cv::IMREAD_COLOR);
+  Mat img = imread("red_eyes.jpg",cv::IMREAD_COLOR);
 
     // Output image
     Mat imgOut = img.clone();
